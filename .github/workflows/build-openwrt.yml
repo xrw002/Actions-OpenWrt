@@ -14,9 +14,9 @@ on:
   push:
     branches: 
       - master
-    paths:
+  paths:
       - '.config'
-    schedule:
+  schedule:
       - cron: 0 8 * * 5
 #  watch:
 #    types: [started]
